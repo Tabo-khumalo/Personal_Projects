@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+}
+
+nav h1{
+    padding: 0 10px;
+}
+
+.nav-list a li {
+    display: inline-block;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
